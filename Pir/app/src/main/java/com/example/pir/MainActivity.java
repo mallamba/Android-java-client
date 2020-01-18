@@ -299,7 +299,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return false;
     }
 
+    public void saveIntToPhone(int nbr){
 
+    }
+
+    public void saveStringToPhone(String str){
+
+    }
 
     public void dealWithMessage(String str){
         if(!str.isEmpty() && str.length() < 30)
